@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <p>레이아웃의 영역으로 다수의 페이지 간에 공유될 UI이다.</p>
+      {children}
+      </body>
     </html>
   )
 }
