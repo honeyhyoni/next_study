@@ -6,6 +6,9 @@ export default function SelectedLayoutSegmentComponent() {
     const segment = useSelectedLayoutSegment()
     const segments = useSelectedLayoutSegments()
 
+    console.log(segment, 'segment')
+    console.log(segments, 'segments')
+
     return (
         <div>
             <p>Active segments: useSelectedLayoutSegments -</p>

@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={'rootLayout'}>
-      {/*<SelectedLayoutSegmentComponent/>*/}
+
 
       <p className={'text-green-700'}>레이아웃의 영역으로 다수의 페이지 간에 공유될 UI이다. (상위 레이아웃)</p>
         {children}
